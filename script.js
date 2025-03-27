@@ -5,6 +5,7 @@ const myForm = document.getElementById('form');
 const modal = document.getElementById('form-feedback-modal');
 const clicksInfo = document.getElementById('click-count');
 
+
 function handleClick() {
     clickCount++;
     clicksInfo.innerText = clickCount;
